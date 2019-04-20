@@ -4,6 +4,8 @@ import {Row, Col, Container, Card, CardHeader, CardBody, CardFooter,
         CardText
 
         } from 'reactstrap'
+import KpuLogo from './Gambars/kpu12.png'
+import { Image, ImageGroup } from 'semantic-ui-react'
 
 import './App.css';
 
@@ -16,7 +18,8 @@ class App extends Component {
             <Col className="md-12">
               <Card>
                 <CardHeader>
-                  <h5>Komisi Pemilihan Nasional</h5>
+                    <Image className="KpuLogo md-2" src={KpuLogo}/>
+                  <h5 className="md-10">Komisi Pemulihan Nasional</h5>
                 </CardHeader>
                 <CardBody><GraphKpu /></CardBody>
                 <CardFooter><CardText className="right">Powerd By. Ali Kurniawan</CardText></CardFooter>
