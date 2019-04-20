@@ -11,7 +11,7 @@ class AnimatedChart extends Component {
 			exportEnabled: true,
 			theme: "dark2", // "light1", "dark1", "dark2"
 			title:{
-				text: "Hasil Resmi Lembaga Survey 2019"
+				text: "Real Count 2019"
 			},
 			data: [{
 				type: "pie",
@@ -32,7 +32,7 @@ class AnimatedChart extends Component {
 		<div>
       <div className="row">
         <div className="col">
-        <h1>Komisi Pemilihan Umum 2019</h1>
+        <h5>Terpercaya</h5>
           <CanvasJSChart options = {options} 
             /* onRef={ref => this.chart = ref} */
           />
