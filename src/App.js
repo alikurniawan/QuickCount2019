@@ -25,13 +25,10 @@ class App extends Component {
               </div>
               <div></div>
               <div className="">
-                <a href="http://localhost:3000" className="btn btn-sm btn-outline-light text-dark btn-right">Reset Filter</a>
+                <a href="https://quick-count-2019.herokuapp.com" className="btn btn-sm btn-outline-light text-dark btn-right">Reset Filter</a>
               </div>
             </div>
-           
-            
           </Container>
-          
         </div>
         </CardHeader>
         <Container>
@@ -52,15 +49,13 @@ class App extends Component {
                   </div>
                 </CardHeader>
                 <CardFooter><CardText className="text-center">Ali Kurniawan Real Count</CardText></CardFooter>
-
               </Card>
             </Col>
             <Row className="">
             <Col className="md-12">
               <bgAnima />
             </Col>
-            </Row>
-            
+            </Row>     
           </Row>
         </Container>
         <CardFooter className="bg-dark text-light text-center text-weight-bold">
