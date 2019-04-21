@@ -9,6 +9,7 @@ import { Image, ImageGroup } from 'semantic-ui-react'
 
 import './App.css';
 import LogoAsliKpu from './Gambars/kpuasli.png'
+import TableRatting from './Components/tableRatting'
 
 class App extends Component {
   render() {
@@ -34,8 +35,16 @@ class App extends Component {
                     
                   <h5 className="text-center text-light">HASIL HITUNG SUARA PEMILU PRESIDEN & WAKIL PRESIDEN RI 2019</h5>
                 </CardHeader>
-                <CardBody><GraphKpu /></CardBody>
-                <CardFooter><CardText className="right">Powerd By. Ali Kurniawan</CardText></CardFooter>
+                <CardBody>
+                  <GraphKpu />
+                </CardBody>
+                <CardHeader>
+                <div className="row">
+                    <div className="col"><TableRatting /></div>
+                    <div className="col"><TableRatting /></div>
+                  </div>
+                </CardHeader>
+                <CardFooter><CardText className="text-center">Ali Kurniawan Real Count</CardText></CardFooter>
 
               </Card>
             </Col>
