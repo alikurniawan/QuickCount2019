@@ -8,17 +8,30 @@ import KpuLogo from './Gambars/kpu12.png'
 import { Image, ImageGroup } from 'semantic-ui-react'
 
 import './App.css';
+import LogoAsliKpu from './Gambars/kpuasli.png'
 
 class App extends Component {
   render() {
     return (
       <div>
+        <CardHeader className="bg-warning">
+        <div className="row">
+          <Container>
+            <div className="col">
+            <img className="MainLogoKpu" src={LogoAsliKpu} />
+            <span className="text-dark font-weight-bold ml-3">Komisi Pemulihan Umum</span>
+            </div>
+            
+          </Container>
+          
+        </div>
+        </CardHeader>
         <Container>
           <Row className="mt-2">
             <Col className="md-12">
               <Card>
                 <CardHeader>
-                    <Image className="KpuLogo md-2" src={KpuLogo}/>
+                    
                   <h5 className="md-10">Komisi Pemulihan Nasional</h5>
                 </CardHeader>
                 <CardBody><GraphKpu /></CardBody>
@@ -26,6 +39,12 @@ class App extends Component {
 
               </Card>
             </Col>
+            <Row className="">
+            <Col className="md-12">
+              <bgAnima />
+            </Col>
+            </Row>
+            
           </Row>
         </Container>
         

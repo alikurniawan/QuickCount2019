@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-
-
 import CanvasJSReact from '../assets/canvasjs.react';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
  
@@ -36,7 +34,7 @@ class AnimatedChart extends Component {
           <CanvasJSChart options = {options} 
             /* onRef={ref => this.chart = ref} */
           />
-          {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
+          
         </div>
       </div>
 		</div>
