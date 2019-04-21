@@ -9,7 +9,7 @@ class AnimatedChart extends Component {
 			exportEnabled: true,
 			theme: "dark2", // "light1", "dark1", "dark2"
 			title:{
-				text: "Real Count 2019"
+				text: "Tingkat Nasional"
 			},
 			data: [{
 				type: "pie",

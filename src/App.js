@@ -30,9 +30,9 @@ class App extends Component {
           <Row className="mt-2">
             <Col className="md-12">
               <Card>
-                <CardHeader>
+                <CardHeader className="bg-secondary">
                     
-                  <h5 className="md-10">Komisi Pemulihan Nasional</h5>
+                  <h5 className="text-center text-light">HASIL HITUNG SUARA PEMILU PRESIDEN & WAKIL PRESIDEN RI 2019</h5>
                 </CardHeader>
                 <CardBody><GraphKpu /></CardBody>
                 <CardFooter><CardText className="right">Powerd By. Ali Kurniawan</CardText></CardFooter>
