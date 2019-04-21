@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GraphKpu from './Components/graphKpuMain'
 import {Row, Col, Container, Card, CardHeader, CardBody, CardFooter,
-        CardText
+        CardText,
 
         } from 'reactstrap'
 import KpuLogo from './Gambars/kpu12.png'
@@ -18,10 +18,17 @@ class App extends Component {
         <CardHeader className="bg-warning">
         <div className="row">
           <Container>
-            <div className="col">
-            <img className="MainLogoKpu" src={LogoAsliKpu} />
-            <span className="text-dark font-weight-bold ml-3">Komisi Pemulihan Umum</span>
+            <div className="flexChiw">
+              <div className="">
+                <img className="MainLogoKpu" src={LogoAsliKpu} />
+                <span className="text-dark font-weight-bold ml-3 font-100">Real Pemulihan Umum</span>
+              </div>
+              <div></div>
+              <div className="">
+                <a href="http://localhost:3000" className="btn btn-sm btn-outline-light text-dark btn-right">Reset Filter</a>
+              </div>
             </div>
+           
             
           </Container>
           
@@ -56,6 +63,18 @@ class App extends Component {
             
           </Row>
         </Container>
+        <CardFooter className="bg-dark text-light text-center text-weight-bold">
+          <div className="row"> 
+            <div className="col"></div>
+            <div className="col">
+              <h3 className="text-light">Kontak</h3>
+              <hr style={{color: 'light', border: '2px'}}/>
+            </div>
+            <div className="col"></div>
+          </div>
+          
+          
+        </CardFooter>
         
         
       </div>
